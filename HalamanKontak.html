@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Nania Azzahra</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="HalamanUtama.html">Home</a></li>
+                <li><a href="HalamanKontak.html">Kontak</a></li>
+                <li><a href="HalamanAboutMe.html">About Me</a></li>
+                <li><a href="HalamanPemogramanWeb.html">Pemrograman Web</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Hubungi Saya</h2>
+            <form action="HalamanKontak.php" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subjek">Subjek:</label>
+                <input type="text" id="subjek" name="subjek" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2025 Nania.</p>
+    </footer>
+</body>
+</html>
